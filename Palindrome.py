@@ -9,8 +9,8 @@ for x in range(st,so):
     d=x%10
     sum=sum*10+d
     x=x//10
-  if (sum==ori)
-  pal.append(ori)
+  if (sum==ori):
+    pal.append(ori)
 print(pal)
 if(pal[len(pal)-1]-pal[0]<off):
   print(len(pal)-1)
